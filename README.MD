@@ -51,6 +51,10 @@ The API **automatically** syncs the database schema when it starts. This creates
 ## ENDPOINTS
 - **GET** /api: *Returns a welcome message.*
 
+- **GET** /api/users: *Retrieves a list of all users.*
+
+- **GET** /api/users/:id: *Retrieves a specific user by ID.*
+
 - **POST** /api/users: *Creates a new user.*
 
 ## Test the API
