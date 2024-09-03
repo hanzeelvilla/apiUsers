@@ -1,0 +1,14 @@
+//Entry point
+GET http://localhost:8000/
+
+###
+
+//Create user
+POST http://localhost:8000/api/users
+Content-Type: application/json
+
+{
+    "name": "tilin", 
+    "username": "tilinInsano", 
+    "password": "1234"
+}
