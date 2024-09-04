@@ -11,10 +11,10 @@ This API provides endpoints to manage users. You can create, update, retrieve, a
 3. Environment Variables: Create a **.env** file in the root of your project and add the following variables:
 
 ```
-PORT=8000
 DB_USER=your_mysql_username
 DB_PASSWORD=your_mysql_password
 DB_NAME=your_database_name
+DB_DIALECT=your_db_type
 ```
 ## Installation
 1. Clone the Repository

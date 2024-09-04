@@ -13,4 +13,12 @@ router.post("/", (req, res) => {
     usersController.create(req, res)
 })
 
+router.put("/:id", (req, res) => {
+    usersController.update(req, res)
+})
+
+router.delete("/:id", (req, res) => {
+    usersController.delete(req, res)
+})
+
 module.exports = router
